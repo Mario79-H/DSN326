@@ -23,9 +23,23 @@ For an AI entry, same shape: which tool, what for, what you kept, what you chang
 
 ---
 
-## YYYY-MM-DD — [your first decision]
+## 2026-11-4 — Chose Backlog item HEARD-219 
 
 **What I decided:**
+  To choose backlog item HEARD-219 - Group order falls apart
 **Why:**
+  Because its an interesting ticket and has a lot of moving parts that could affect it.
 **What I gave up:**
+Nothing.
 **What would change this:**
+N/A
+
+AI Entry
+**Which tool**
+Bolt
+**What For**
+Getting the tokens for each group
+**What I Kept**
+The tokens and the values it gave me
+**What I Changed**
+Nothing
