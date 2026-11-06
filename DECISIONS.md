@@ -43,3 +43,34 @@ Getting the tokens for each group
 The tokens and the values it gave me
 **What I Changed**
 Nothing
+
+## Week 2 
+2026-11-5
+**Missing Number**
+The gap: The ticket says orders over $80 have a higher error rate and a higher refund rate, but does not give me the rate values or the number of orders. 
+What I found: In the last quarter, 34,000 group orders were started and 21,000 of them were completed. This is inferred by carts with 6+ items and 3+ names in the instructions.
+Source: PM pack metrics table and summarized with Dev
+What it changes: Around 38% of group orders are not being completed, and there is a significant amount of errors and refunds. Both problems probably have the same source, but not knowing what the source is, I will have to take a deeper look during the sessions to see if I find something.
+
+**Solution disguised as a problem**
+What the ticket asks for: The ticket says the solution is when the person placing a large order can keep track of what they're ordering and for whom, and fix a mistake without starting over.
+The problem underneath it: Knowing who they order for is assuming the person adds it to the instructions of an item. Only 22% of guest orders have a special instruction, which includes normal orders.
+Source: PM pack metrics table
+Does the proposed solution address the real problem?: We cannot assume the person ordering is always including a name in the instructions under an item in their group order. Consider this and watch if this situation happens in the sessions.
+
+**The unstated constraint**
+The constraint: A new backend service
+Where I found it: PM pack
+Why the ticket doesn't mention it: The ticket is implying a front-end solution is needed rather than a back-end solution
+What it rules out: Adding a 'Name' field to each item, or grouping items within the order by name
+
+AI Entry
+**Which tool**
+Claude
+**What For**
+Asking Dev about the missing number gap and getting information from it
+**What I Kept**
+The information
+**What I Changed**
+Nothing
+
