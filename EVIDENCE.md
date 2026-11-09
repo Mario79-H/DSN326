@@ -39,13 +39,15 @@ Rail parity check
 
 Five Tasks Script
 
-1. Remove one of the items from order and tap confirm button
-2. Choose pickup time and add phone number
-3. Tap custom tip selection and confirm tip is added to order total
-4. Tap button and select to add new card as payment method
-5. Tap place order button and receive order number
+1. Edit an item from the group order
+2. Choose a pickup time
+3. Add a $30 tip to the order
+4. Pay the order with a new card
+5. Get the group order's order number
 
-   I chose these tasks for my script because it includes some actions that commonly occurs in group orders and to ensure these actions do not affect the order unnaturally. 
+   I chose these tasks for my script because it includes some actions that commonly occurs in group orders and to ensure these actions do not affect the order unnaturally.
+**11/8/2026**
+   Tweaked the five task script to be more like a task rather than an instruction
 
 ---
 
