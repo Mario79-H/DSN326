@@ -27,23 +27,18 @@ Rail parity check
 | Token | Figma value | `tokens.css` value | Agree? |
 |---|---|---|---|
 | interactive-hover  | #E84E1A | var(--primary-500) = #E84E1A | yes |
-|---|---|---|---|
 | type-heading-size | 20px | 20px | yes |
-|---|---|---|---|
 | space-inset-lg | 24px | 24px | yes |
-|---|---|---|---|
 | radius-md | 12px | 12px | yes |
-|---|---|---|---|
 | target-comfortable | 48px | 48px | yes |
-|---|---|---|---|
 
 Five Tasks Script
 
-1. Edit an item from the group order
-2. Choose a pickup time
-3. Add a $30 tip to the order
-4. Pay the order with a new card
-5. Get the group order's order number
+1. Nia wants her horchata to have light ice
+2. Marcus also wants a carnitas taco
+3. Wen changed his mind and is skipping lunch
+4. Add a $30 tip to the order
+5. Use the company card to pay for the group order
 
    I chose these tasks for my script because it includes some actions that commonly occurs in group orders and to ensure these actions do not affect the order unnaturally.
 **11/8/2026**
@@ -58,4 +53,4 @@ Five Tasks Script
 **Consent:** 
 **Setup:** 
 **Task 1:** 
-**Task 2:** 
+**Task 2:**
