@@ -48,9 +48,39 @@ Five Tasks Script
 
 ## Sessions
 
-### P1 — YYYY-MM-DD, round [1/2]
-
 **Consent:** 
+I'm a design student working on software for restaurants. I'm going to give you some context and then a few tasks. It's not a test of you — I'm testing the software. Think out loud as you go so I can hear what you're expecting. I'll take notes but not record. You can stop any time, for any reason. Questions before we start?
 **Setup:** 
-**Task 1:** 
-**Task 2:**
+You're ordering lunch for ten people in your office. Six of them texted you what they want, three replied in a group chat, one said "whatever you're having," and one hasn't answered.
+
+You have their orders written down on a sticky note and in three different places on your phone. Two people have things they can't eat.
+
+You are doing this at your desk between meetings and somebody keeps asking whether you've ordered yet.
+
+### P1 — 2026-11-08, round [1/2]
+
+**Tasks:** 
+
+| Task | Completed? | Time | Where they stuck | 
+|---|---|---|---|
+| 1 | Yes | 0:35 | Finding the item |
+| 2 | Yes | 0:43 | Finding the item |
+| 3 | Yes | 1:02 | Looking for each instance of Wen |
+| 4 | Yes | 0:37 | None |
+| 5 | Yes | 0:25 | None |
+
+**Tasks:** 
+
+| Task | Completed? | Time | Where they stuck | 
+|---|---|---|---|
+| 1 | Yes | 1:08 | Kept on passing the item |
+| 2 | Yes | 0:42 | None, remembered seeing item during the previous task |
+| 3 | Yes | 0:45 | Finding each Wen |
+| 4 | Yes | 0:32 | None|
+| 5 | Yes | 0:23 | Was unsure which card option to choose from |
+
+**Framed Problem**
+The framed problem happens to people who are ordering for a group of people and are unable to correctly keep track of all the details of each item independently in a group order. Specifically, keeping track of who has an item and what additional instructions there is (if there is any) for it. Seen in the sessions I did, people are having difficulty parsing through the list of items and tracking the total amount of items for each person. It violates the heuristic of 'Recognition Rather than Recall', forcing the person ordering to remember the items manually rather than having grouping an order by names. 
+
+**Success Measure**
+User can easily view all the items for a specific person within a group order.
