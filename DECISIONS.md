@@ -74,3 +74,15 @@ The information
 **What I Changed**
 Nothing
 
+# Week 3
+
+**Three Options**
+|  | A: Name on each item | B: Distinguishing group order vs big order | C: Group orders using names | 
+|---|---|---|---|
+| In one sentence | Each item on a order has an input labeled 'Name', where the user can enter the name the item belongs to | User can select from either a group order with multiple people, or a big order for one family | Reorganize flow to add a name, select food items for person, and then add new name with their food items, and so on  |
+| Costs the user | Extra seconds entering a name for each item | Noticing the checkbox and understanding what each state means to their according to their order |  Go one by one for each person, trusting that they know what each person wants from the start |
+| Costs the system, incl. build | Saving the value in the database. Visually, just add another label input field to the card with the same tokens | Adding the flag to the database. Frontend, just a single label and checkbox | Reformat flow of group orders, restructure database to accommodate grouping by name  |
+| Assumes | User sees field within the item | User notices the single checkbox and knows what it means | User knows all the items for a person |
+| What would kill it | Testers don't see the Name field | Testers don't see the checkbox | Testers find the new flow tedious or complicated |
+
+
