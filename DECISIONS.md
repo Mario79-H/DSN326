@@ -85,4 +85,10 @@ Nothing
 | Assumes | User sees field within the item | User notices the single checkbox and knows what it means | User knows all the items for a person |
 | What would kill it | Testers don't see the Name field | Testers don't see the checkbox | Testers find the new flow tedious or complicated |
 
+# Week 4
+
+Hey Marisol, I'm writing back to you about HEARD-219. I wanted clarification on one thing; does grouping items by names need implementation of a new backend service? I know Nate is committed through Q4. I would hope it doesn't need that, but since its a priority P2 I wanted to make sure first. In case of no response before Friday, I'll assume that it does and work around that.
+My idea is to utilize option B, which is adding a checkbox at the top of the group order page that will flag the group order as either a group with multiple people, or just a large order, along with option C, which is grouping by name. If the order is an order for multiple people, a 'Add Person' button will appear that, when clicked, shows a popup that will have a field to enter their name and a dropdown with all the items in the order, and the user will select the items for that person. Once saved, the order list is updated with those items grouped under a person, and the rest of the items ungrouped as it is now. 
+The tradeoff for this is that there are additional steps for the user to group their order by name, which some users might not like, but will serve to better organize the group order, both for the customer and food staff. This change is reversible, but would take time to change it back, just like it will take time to implement the change. 
+
 
