@@ -91,4 +91,7 @@ Hey Marisol, I'm writing back to you about HEARD-219. I wanted clarification on 
 My idea is to utilize option B, which is adding a checkbox at the top of the group order page that will flag the group order as either a group with multiple people, or just a large order, along with option C, which is grouping by name. If the order is an order for multiple people, a 'Add Person' button will appear that, when clicked, shows a popup that will have a field to enter their name and a dropdown with all the items in the order, and the user will select the items for that person. Once saved, the order list is updated with those items grouped under a person, and the rest of the items ungrouped as it is now. 
 The tradeoff for this is that there are additional steps for the user to group their order by name, which some users might not like, but will serve to better organize the group order, both for the customer and food staff. This change is reversible, but would take time to change it back, just like it will take time to implement the change. 
 
+**Studio B - Full Fidelity**
+
+The primary device target is phone at comfortable, with desktop at compact being the secondary. In terms of system decisions, I did some extensions of existing components. The button to open the dialog, the checkbox to show the button, and the input field to add a name are all existing components within Rail. The dialog also exists, used when ordering an item. When creating the dialog, I did detach the instance to include the select component within the layout.
 
